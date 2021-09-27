@@ -21,6 +21,7 @@ public class BoardServiceTests {
 	@Setter(onMethod_ = {@Autowired})
 	private BoardService service;
 	
+	/*    메서드를 선택하고 Ctrl + F11을 누르면 해당 메서드 한개만 테스트 할 수 있다.       */
 	@Test
 	//@Ignore
 	public void testExist() {
