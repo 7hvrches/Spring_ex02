@@ -87,7 +87,7 @@ public class BoardControllerTests {
 	public void testRemove() throws Exception {
 		// 삭제전 데이터베이스에 게시물 번호 확인할 것
 		String resultpage = mockMvc.perform(MockMvcRequestBuilders.post("/board/remove")
-				.param("bno", "25")
+				.param("bno", "81")
 				).andReturn().getModelAndView().getViewName();
 		
 		log.info(resultpage);

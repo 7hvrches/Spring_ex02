@@ -58,7 +58,7 @@ public class BoardServiceTests {
 	//@Ignore
 	public void testDelete() {
 		// 게시물 번호의 존재 여부를 확인하고 테스트할 것
-		log.info("REMOVE RESULT: " + service.remove(4L));
+		log.info("REMOVE RESULT: " + service.remove(81L));
 	}
 	
 	@Test
